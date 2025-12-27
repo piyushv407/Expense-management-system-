@@ -50,7 +50,7 @@ def view_expenses():
 def total_spent():
     expenses = load_data()
     total = sum(item["amount"] for item in expenses)
-    print(f"\n💰 Total Spent: ₹{total}")
+    print(f"\n Total Spent: ₹{total}")
 
 
 def by_category():
